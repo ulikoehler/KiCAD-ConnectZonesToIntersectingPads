@@ -1,4 +1,4 @@
-# KiCAD-ConnectZonesToIntersectingPads
+# KiCAD Connect zones to intersecting pads plugin
 KiCAD plugin to connect zones to intersecting pads
 
 For all selected zones, this plugin will find all pads that are intersecting the zone, perform a majority vote on the selected nets and connect the zone to whatever net is shared by the largest number of intersecting pads.
