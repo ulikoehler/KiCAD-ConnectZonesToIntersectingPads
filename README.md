@@ -10,3 +10,10 @@ This plugin is *not* intended to be used for your bog-standard GND fill zone, bu
 At the moment, this plugin is provided as-is on Github only for local installation. The reason for this is purely that I currently don't have time to make this into a "proper" published KiCAD plugin (it might happen in the future, depending on how often I use this plugin).
 
 Pull requests are always welcome & encouraged.
+
+### Installation
+
+On Linux:
+```sh
+cd ~/.local/share/kicad/7.0/scripting/plugins && wget https://raw.githubusercontent.com/ulikoehler/KiCAD-ConnectZonesToIntersectingPads/master/ConnectZonesToIntersectingPads.py
+```
